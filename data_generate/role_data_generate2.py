@@ -41,7 +41,7 @@ def generate_character(client: OpenAI, model: str, existing_names: List[str]) ->
 def generate_role_data(num_characters: int = 5) -> List[Dict]:
     """生成指定数量的人物数据（增强版）"""
     base_url = "https://api.ppinfra.com/v3/openai"
-    api_key = "sk_3IwzOCr3JVfLtDyfkFqf3-kidlfJp3wxzko9w38BSH0"
+    api_key = "sk_xxxxx"
     model = "deepseek/deepseek-v3-0324"
     
     client = OpenAI(base_url=base_url, api_key=api_key)
